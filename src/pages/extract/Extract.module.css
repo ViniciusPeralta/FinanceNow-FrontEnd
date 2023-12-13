@@ -1,0 +1,172 @@
+.txtcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.extract h1 {
+    color: green;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.filtercontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.filter {
+    margin-top: 15px;
+    height: 30px;
+    width: 30px;
+}
+
+.toggleoff {
+    display: block;
+    margin-top: 20px;
+    background-color: rgb(226, 225, 225);
+    width: 50px;
+    height: 22px;
+    border-radius: 42px;
+    cursor: pointer;
+}
+
+.toggleon {
+    display: block;
+    margin-top: 20px;
+    background-color: rgb(71, 224, 71);
+    width: 50px;
+    height: 22px;
+    border-radius: 42px;
+    cursor: pointer;
+}
+
+.togglecheck {
+    opacity: 0;
+}
+
+.toggleoff .checkmark {
+    background-color: rgb(153, 153, 153);
+    height: 22px;
+    width: 22px;
+    border-radius: 150px;
+}
+
+.toggleon .checkmark {
+    background-color: green;
+    height: 22px;
+    width: 22px;
+    border-radius: 150px;
+    margin-left: 27px;
+}
+
+.extract input[type='month'] {
+    background-color: rgb(226, 225, 225);
+    border: none;
+    border-radius: 15px;
+    width: 180px;
+    height: 30px;
+    padding: 10px;
+    font-size: 0.9em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-right: 5px;
+}
+
+.monthcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extract input[type=submit] {
+    background: url('../../images/searchextract.jpg');
+    border-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.extract input[type=submit]:active {
+    cursor: wait;
+}
+
+.errorcontainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.searchempty {
+    height: 250px;
+}
+
+.error {
+    height: 250px;
+    margin-top: 5%;
+}
+
+.extract table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.extract table th {
+    font-size: 1em;
+    height: 30px;
+    color: green;
+    background-color: rgb(226, 225, 225);
+}
+
+.extract table td {
+    height: 20px;
+}
+
+.balance {
+    text-align: right;
+}
+
+.first {
+    background-color: rgb(236, 236, 236);
+}
+
+.selectcontainer {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.selectcontainer div {
+    margin-right: 20px;
+}
+
+.selectcontainer p {
+    color: green;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-left: 10px;
+    position: sticky;
+    margin-bottom: -16px;
+}
+
+.selection {
+    color: black;
+    background-color: rgb(226, 225, 225);
+    border: none;
+    border-radius: 15px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 13px;
+}

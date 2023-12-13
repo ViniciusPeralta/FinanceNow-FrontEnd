@@ -1,0 +1,94 @@
+.home h1 {
+    color: rgb(123, 122, 122);
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.home h2 {
+    color: green;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.home button {
+    font-size: 24px;
+    border-color: green;
+    color: green;
+    border-radius: 60px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 140px;
+    width: 200px;
+    border-style: solid;
+}
+
+.home button:hover {
+    cursor: pointer;
+}
+
+.block {
+    background-color: rgb(240, 240, 240);
+    margin-top: 30px;
+    height: 300px;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.block h1.ext {
+    padding-left: 160px;
+}
+
+.block h1.trans {
+    padding-left: 140px;
+}
+
+.block p {
+    color: rgb(123, 122, 122);
+    font-size: 24px;
+    padding-top: 30px;
+    padding-right: 40%;
+    padding-left: 60px;
+    text-align: center;
+}
+
+.block .text {
+    margin-left: 80px;
+}
+
+.extract {
+    max-width: 250px;
+    max-height: 250px;
+    float: right;
+    margin-top: 30px;
+}
+
+.transfer {
+    max-width: 280px;
+    max-height: 260px;
+    float: right;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.contact {
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    height: 100px;
+}
+
+.contact h1 {
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+
+.contact h2 {
+    font-size: 1em;
+    color: rgb(123, 122, 122);
+}
+
+.contact h3 {
+    font-size: 0.8em;
+    color: rgb(86, 85, 85);
+    margin-top: 15px;
+}
