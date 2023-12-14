@@ -37,8 +37,8 @@ const Extract = () => {
     const [balance, setBalance] = useState('');
     const [checked, setChecked] = useState('');
 
-    const [type, setType] = useState(null);
-    const [essential, setEssential] = useState(null);
+    const [type, setType] = useState('');
+    const [essential, setEssential] = useState('');
 
     const { userId } = userStore();
 
