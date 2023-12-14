@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/financenow/static/css/main.3f06a34b.css",
+    "main.js": "/financenow/static/js/main.0b5701f7.js",
+    "static/media/login_background.jpg": "/financenow/static/media/login_background.79591745d587a544007a.jpg",
+    "static/media/searchnull.jpg": "/financenow/static/media/searchnull.245adf649358f401700d.jpg",
+    "static/media/delete.jpg": "/financenow/static/media/delete.f30e2b3a7630c7eac6c0.jpg",
+    "static/media/edit.jpg": "/financenow/static/media/edit.3fa8d1568ec2c1db3e56.jpg",
+    "static/media/register.jpg": "/financenow/static/media/register.89474bf741f7f6443447.jpg",
+    "static/media/transfer.jpg": "/financenow/static/media/transfer.f511e58296797e82ea27.jpg",
+    "static/media/searchwrong.jpg": "/financenow/static/media/searchwrong.a034056c8252a3cb0821.jpg",
+    "static/media/extract.jpg": "/financenow/static/media/extract.b315a20e483d64834482.jpg",
+    "static/media/searchempty.jpg": "/financenow/static/media/searchempty.c1de0305a14ae8d9ab22.jpg",
+    "static/media/searchemptyextract.jpg": "/financenow/static/media/searchemptyextract.30ea1c6579f20667e541.jpg",
+    "static/media/error.jpg": "/financenow/static/media/error.e713a8d7fa99e9f081b7.jpg",
+    "index.html": "/financenow/index.html",
+    "main.3f06a34b.css.map": "/financenow/static/css/main.3f06a34b.css.map",
+    "main.0b5701f7.js.map": "/financenow/static/js/main.0b5701f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f06a34b.css",
+    "static/js/main.0b5701f7.js"
+  ]
+}
