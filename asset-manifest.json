@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/financenow/static/css/main.3f06a34b.css",
-    "main.js": "/financenow/static/js/main.45a3556d.js",
+    "main.js": "/financenow/static/js/main.bbcb0b45.js",
     "static/media/login_background.jpg": "/financenow/static/media/login_background.79591745d587a544007a.jpg",
     "static/media/searchnull.jpg": "/financenow/static/media/searchnull.245adf649358f401700d.jpg",
     "static/media/delete.jpg": "/financenow/static/media/delete.f30e2b3a7630c7eac6c0.jpg",
@@ -15,10 +15,10 @@
     "static/media/error.jpg": "/financenow/static/media/error.e713a8d7fa99e9f081b7.jpg",
     "index.html": "/financenow/index.html",
     "main.3f06a34b.css.map": "/financenow/static/css/main.3f06a34b.css.map",
-    "main.45a3556d.js.map": "/financenow/static/js/main.45a3556d.js.map"
+    "main.bbcb0b45.js.map": "/financenow/static/js/main.bbcb0b45.js.map"
   },
   "entrypoints": [
     "static/css/main.3f06a34b.css",
-    "static/js/main.45a3556d.js"
+    "static/js/main.bbcb0b45.js"
   ]
 }
