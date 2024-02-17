@@ -348,8 +348,8 @@ const Transactions = () => {
           <div className={styles.first}>
             <label>
               <select required onChange={(e) => setType(e.target.value)}>
-                <option value="CREDIT">Crédito</option>
-                <option value="DEBIT">Débito</option>
+                <option value="CREDIT">Receita</option>
+                <option value="DEBIT">Despesa</option>
               </select>
             </label>
             <label>
@@ -486,8 +486,8 @@ const Transactions = () => {
           <div className={styles.first}>
             <label>
               <select ref={selectRef} required onChange={(e) => setType(e.target.value)} value={type}>
-                <option value="CREDIT">Crédito</option>
-                <option value="DEBIT">Débito</option>
+                <option value="CREDIT">Receita</option>
+                <option value="DEBIT">Despesa</option>
               </select>
             </label>
             <label>
