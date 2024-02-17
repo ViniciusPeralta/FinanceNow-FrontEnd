@@ -113,8 +113,8 @@ const Extract = () => {
                             <select onChange={(e) => setType(e.target.value)}
                                 className={styles.selection}>
                                 <option value={''}>------</option>
-                                <option value='CREDIT'>Crédito</option>
-                                <option value='DEBIT'>Débito</option>
+                                <option value='CREDIT'>Receita</option>
+                                <option value='DEBIT'>Despesa</option>
                             </select>
                         </div>
                         <div>
