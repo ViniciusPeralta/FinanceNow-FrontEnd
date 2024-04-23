@@ -24,9 +24,13 @@ const NavBar = () => {
                     className={({ isActive }) => (isActive ? styles.active : undefined)}>
                     Extrato
                 </NavLink>
+                <NavLink to={`/companies/${name}`}
+                    className={({ isActive }) => (isActive ? styles.active : undefined)}>
+                    Empresas
+                </NavLink>
             </div>
             <div className={styles.final}>
-                    <h3 onClick={logout}>Sair</h3>
+                <h3 onClick={logout}>Sair</h3>
             </div>
         </nav>
     )
