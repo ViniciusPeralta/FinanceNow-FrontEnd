@@ -8,6 +8,7 @@ import Register from './pages/register/Register';
 import Home from './pages/home/Home';
 import Extract from './pages/extract/Extract';
 import Transactions from './pages/transactions/Transactions';
+import CustomerList from './pages/companies/list/CustomerList.js';
 
 import userStore from './store/UserStore.ts';
 
@@ -30,6 +31,8 @@ function App() {
           element={name !== '' ? <Extract /> : <Navigate to='/'/>} />
           <Route path='/transactions/:name' 
           element={name !== '' ? <Transactions /> : <Navigate to='/'/>} />
+          <Route path='/companies/:name' 
+          element={name !== '' ? <CustomerList /> : <Navigate to='/'/>} />
         </Routes>
       </BrowserRouter>
     </div>
