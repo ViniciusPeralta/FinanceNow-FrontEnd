@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import NavBar from '../../components/NavBar.js';
+import NavBar from '../../components/navbar/NavBar.js';
 
 import styles from './Extract.module.css';
 

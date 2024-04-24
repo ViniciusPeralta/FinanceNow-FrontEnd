@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 
 import Modal from 'react-modal';
 
-import NavBar from '../../components/NavBar.js';
+import NavBar from '../../components/navbar/NavBar.js';
 
 import styles from './Transactions.module.css';
 

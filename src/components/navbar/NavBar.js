@@ -2,7 +2,7 @@ import styles from './NavBar.module.css'
 
 import { NavLink } from "react-router-dom";
 
-import userStore from '../store/UserStore.ts';
+import userStore from '../../store/UserStore.ts';
 
 const NavBar = () => {
 
