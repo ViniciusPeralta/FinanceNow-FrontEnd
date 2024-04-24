@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import extract from '../../images/extract.jpg';
 import transfer from '../../images/transfer.jpg';
 
-import userStore from '../../store/UserStore.ts';
+import userStore from '../../store/user/UserStore.ts';
 
 const Home = () => {
 
