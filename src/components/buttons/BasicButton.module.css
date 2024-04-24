@@ -1,0 +1,12 @@
+.button {
+    display: inline-block;
+    border-radius: 100px;
+    cursor: pointer;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.button h1 {
+    user-select: none;
+    display: inline; 
+}
