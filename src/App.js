@@ -10,7 +10,7 @@ import Extract from './pages/extract/Extract';
 import Transactions from './pages/transactions/Transactions';
 import CompanyList from './pages/companies/list/CompanyList.js';
 
-import userStore from './store/UserStore.ts';
+import userStore from './store/user/UserStore.ts';
 
 function App() {
 

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import styles from './Login.module.css';
 
 import LoginService from '../../services/login/LoginService';
-import userStore from '../../store/UserStore.ts';
+import userStore from '../../store/user/UserStore.ts';
 
 const Login = () => {
 

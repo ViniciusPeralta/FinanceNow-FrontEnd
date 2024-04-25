@@ -17,7 +17,7 @@ import searchnull from '../../images/searchnull.jpg'
 import searchempty from '../../images/searchempty.jpg'
 import searchwrong from '../../images/searchwrong.jpg'
 
-import userStore from '../../store/UserStore.ts';
+import userStore from '../../store/user/UserStore.ts';
 
 const Transaction = (type, value, essential, category, description, date, user) => {
 

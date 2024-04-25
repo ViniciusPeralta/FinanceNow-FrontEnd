@@ -13,7 +13,7 @@ import searchempty from '../../images/searchemptyextract.jpg'
 import error from '../../images/error.jpg'
 import filter from '../../images/filter.jpg'
 
-import userStore from '../../store/UserStore.ts';
+import userStore from '../../store/user/UserStore.ts';
 
 const TransactionList = (id, type, value, essential, category, description, date) => {
 
